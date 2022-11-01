@@ -84,7 +84,10 @@ Open `single.json`/`parallel.json` file in `config` folder :
 
 - If you have uploaded your own app update the test case
 
-- Run `paver run single`
+- Run the below command to execute a single test on BrowserStack AppAutomate:
+    ```
+    paver run single
+    ```
 
 - In order to run tests in parallel across different configurations mentioned in the [`parallel.json`](config/parallel.json) file, run the below command 
     ```
@@ -126,6 +129,9 @@ Open `local.json` file in `conifg` folder :
 
 - If you have uploaded your own app update the test case. The test cases for Local Tests are present [here](tests/local_tests/local_sample.py)
 
-- Run `paver run local`
+- Run the below command: 
+    ```
+    paver run local
+    ```
 
 - You can access the test execution results, and debugging information such as video recording, network logs on [App Automate dashboard](https://app-automate.browserstack.com/dashboard)
