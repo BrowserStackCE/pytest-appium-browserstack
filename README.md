@@ -10,31 +10,6 @@ PyTest Integration with BrowserStack.
     - For Windows, download latest python version from [here](https://www.python.org/downloads/windows/) and run the installer executable
     - For Mac and Linux, run `python --version` to see what python version is pre-installed. If you want a different version download from [here](https://www.python.org/downloads/)
 
-2. Package Manager pip
-
-    Note : `pip` comes installed with Python 2.7.9+ and python 3.4+
-
-    - If `pip` is not installed, follow these instructions:
-        - Securely download get-pip.py by following this link: [get-pip.py](https://bootstrap.pypa.io/get-pip.py) or use following cURL command to download it:
-
-        ```sh
-        curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
-        ```
-
-        - After dowloading, run the file :
-
-            - For Python 3
-
-                ```sh
-                python3 get-pip.py
-                ```
-
-            - For Python 2
-
-                ```sh
-                python2 get-pip.py
-                ```
-
 ### Install the dependencies
 
 To install the dependencies, run the following command in project's base directory:
