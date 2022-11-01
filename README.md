@@ -23,7 +23,7 @@ To install the dependencies, run the following command in project's base directo
 - For Python 2
 
     ```sh
-    pip2 install -r requirements.txt
+    pip install -r requirements.txt
     ```
 
 ## Getting Started
@@ -55,9 +55,7 @@ Open `single.json`/`parallel.json` file in `config` folder :
 
 - Replace `bs://<app-id>` wkth the URL obtained from app upload step
 
-- Set the deviceName and platformVersion
-
-- If you have uploaded your own app update the test case
+- Set the deviceName and platformVersion. You can refer our [Capability Generator](https://www.browserstack.com/app-automate/capabilities)
 
 - Run the below command to execute a single test on BrowserStack AppAutomate:
     ```
@@ -98,11 +96,9 @@ Open `local.json` file in `conifg` folder :
 
 - Replace `bs://<app-id>` wkth the URL obtained from app upload step
 
-- Set the deviceName and platformVersion
+- Set the deviceName and platformVersion. You can refer our [Capability Generator](https://www.browserstack.com/app-automate/capabilities)
 
 - Ensure that `local` capability is set to `true`. The `conftest.py` contains the code snippet that automatically establishes Local Testing connection to BrowserStack servers using Python binding for BrowserStack Local. 
-
-- If you have uploaded your own app update the test case. The test cases for Local Tests are present [here](tests/local_tests/local_sample.py)
 
 - Run the below command: 
     ```
