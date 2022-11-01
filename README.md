@@ -86,7 +86,10 @@ Open `single.json`/`parallel.json` file in `config` folder :
 
 - Run `paver run single`
 
-- In orde to run tests in parallel across different configurations mentioned in the `parallel.json` file, run `paver run parallel`
+- In order to run tests in parallel across different configurations mentioned in the [`parallel.json`](config/parallel.json) file, run the below command 
+    ```
+    paver run parallel
+    ```
 
 - You can access the test execution results, and debugging information such as video recording, network logs on [App Automate dashboard](https://app-automate.browserstack.com/dashboard)
 
@@ -111,13 +114,13 @@ Ensure that @ symbol is prepended to the file path in the above request. Please 
 
 **2. Configure and run your local test**
 
-Open `browserstack_sample_local` file in `Android` or `iOS` folder :
+Open `local.json` file in `conifg` folder :
 
 - Replace `BROWSERSTACK_USERNAME` & `BROWSERSTACK_ACCESS_KEY` with your BrowserStack access credentials. Get your BrowserStack access credentials from [here](https://www.browserstack.com/accounts/settings)
 
 - Replace `bs://<app-id>` wkth the URL obtained from app upload step
 
-- Set the device and OS version
+- Set the deviceName and platformVersion
 
 - Ensure that `local` capability is set to `true`. The `conftest.py` contains the code snippet that automatically establishes Local Testing connection to BrowserStack servers using Python binding for BrowserStack Local. 
 
