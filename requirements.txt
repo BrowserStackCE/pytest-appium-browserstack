@@ -1,0 +1,11 @@
+browserstack-local
+jsonmerge
+multiprocess
+paver
+selenium==4.0.0
+psutil
+pytest
+pytest-variables
+pytest-selenium
+pytest-xdist
+Appium-Python-Client
