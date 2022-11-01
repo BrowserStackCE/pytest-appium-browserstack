@@ -2,7 +2,7 @@
     "user": "BROWSERSTACK_USERNAME",
     "key": "BROWSERSTACK_ACCESS_KEY",
     "capabilities": {
-        "app" : "<browserstack-app-url>",
+        "app" : "bs://<app-id>",
         "bstack:options": {
             "projectName": "Pytest Browserstack",
             "buildName": "browserstack-build-1",
