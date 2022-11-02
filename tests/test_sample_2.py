@@ -21,11 +21,11 @@ class TestSample:
             EC.element_to_be_clickable(
                 (AppiumBy.ID, "org.wikipedia.alpha:id/search_src_text"))
             )
-        search_input.send_keys("BrowserStack")
+        search_input.send_keys("Browser Testing")
         time.sleep(5)
         search_results = self.driver.find_elements(
             AppiumBy.CLASS_NAME, "android.widget.TextView")
-            
+
         if(len(search_results) > 0):
             self.driver.execute_script(
                 'browserstack_executor: {"action": "setSessionStatus", "arguments": {"status":"passed","reason": "Test Passed Successfully"}}')
