@@ -1,0 +1,27 @@
+{
+    "user": "BROWSERSTACK_USERNAME",
+    "key": "BROWSERSTACK_ACCESS_KEY",
+    "capabilities": {
+        "app" : "IOSSampleApp",
+        "bstack:options": {
+            "projectName": "Pytest Browserstack",
+            "buildName": "browserstack-build-ios",
+            "sessionName": "BStack sample pytest",
+            "local": false,
+            "debug": "true",
+            "networkLogs": "true"
+        }
+    },
+    "environments": [
+        {
+            "platformName": "ios",
+            "platformVersion": "16",
+            "deviceName": "iPhone 14"
+        },
+        {
+            "platformName": "ios",
+            "platformVersion": "15",
+            "deviceName": "iPhone 11"
+        }
+    ]
+}

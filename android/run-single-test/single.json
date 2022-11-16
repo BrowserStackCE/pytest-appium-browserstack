@@ -2,10 +2,10 @@
     "user": "BROWSERSTACK_USERNAME",
     "key": "BROWSERSTACK_ACCESS_KEY",
     "capabilities": {
-        "app" : "bs://<app-id>",
+        "app" : "bs://d83aa0e9b284055bf70c906239301a579b6143c4",
         "bstack:options": {
             "projectName": "Pytest Browserstack",
-            "buildName": "browserstack-build-1",
+            "buildName": "browserstack-build-android",
             "sessionName": "BStack sample pytest",
             "local": false,
             "debug": "true",

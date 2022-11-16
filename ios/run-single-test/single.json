@@ -2,10 +2,10 @@
     "user": "BROWSERSTACK_USERNAME",
     "key": "BROWSERSTACK_ACCESS_KEY",
     "capabilities": {
-        "app" : "bs://<app-id>",
+        "app" : "IOSSampleApp",
         "bstack:options": {
             "projectName": "Pytest Browserstack",
-            "buildName": "browserstack-build-1",
+            "buildName": "browserstack-build-ios",
             "sessionName": "BStack sample pytest",
             "local": false,
             "debug": "true",
@@ -14,14 +14,9 @@
     },
     "environments": [
         {
-            "platformName": "android",
-            "platformVersion": "9.0",
-            "deviceName": "Google Pixel 3"
-        },
-        {
-            "platformName": "android",
-            "platformVersion": "11.0",
-            "deviceName": "Samsung Galaxy A52"
+            "platformName": "ios",
+            "platformVersion": "16",
+            "deviceName": "iPhone 14"
         }
     ]
 }
