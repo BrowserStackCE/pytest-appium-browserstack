@@ -53,7 +53,7 @@ Open `single.json` file in `android/run-single-test` folder for Android and `ios
 
 - Replace `BROWSERSTACK_USERNAME` & `BROWSERSTACK_ACCESS_KEY` with your BrowserStack access credentials. Get your BrowserStack access credentials from [here](https://www.browserstack.com/accounts/settings)
 
-- Replace `bs://<app-id>` wkth the URL obtained from app upload step
+- Replace `bs://<app-id>` with the URL obtained from app upload step
 
 - Set the deviceName and platformVersion. You can refer our [Capability Generator](https://www.browserstack.com/app-automate/capabilities)
 
