@@ -45,7 +45,7 @@ def session_capabilities():
 
 @pytest.fixture(scope='function')
 def setWebdriver(request, session_capabilities):
-    remoteURL = "https://hub-cloud.browserstack.com/wd/hub"
+    remoteURL = "https://hub.browserstack.com/wd/hub"
     driver = webdriver.Remote(remoteURL, session_capabilities)
     request.cls.driver = driver
 
