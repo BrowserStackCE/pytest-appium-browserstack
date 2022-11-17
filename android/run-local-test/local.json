@@ -5,7 +5,7 @@
         "app" : "bs://<app-id>",
         "bstack:options": {
             "projectName": "Pytest Browserstack",
-            "buildName": "browserstack-build-android",
+            "buildName": "browserstack-build-1",
             "sessionName": "BStack sample pytest",
             "local": "true",
             "debug": "true",
