@@ -85,7 +85,7 @@ cd android
 paver run parallel
 ```
 
-- Run the below command to execute a single iOS test on BrowserStack AppAutomate:
+- Run the below command to execute a parallel iOS test on BrowserStack AppAutomate:
 ```
 cd ios
 paver run parallel
