@@ -8,7 +8,7 @@ import pytest
 from selenium.webdriver.common.by import By
 
 
-@pytest.mark.usefixtures('getWebdriver')
+@pytest.mark.usefixtures('setWebdriver')
 class TestSample:
 
     def test_example(self):
@@ -28,8 +28,8 @@ class TestSample:
         result_string = result_element.text.lower()
         if result_string.__contains__("up and running"):
             self.driver.execute_script(
-                'browserstack_executor: {"action": "setSessionStatus", "arguments": {"status":"failed","reason": "Test failed"}}')
+                'browserstack_executor: {"action": "setSessionStatus", "arguments": {"status":"passed","reason": "Test passed"}}')
         else:
             self.driver.execute_script(
-                'browserstack_executor: {"action": "setSessionStatus", "arguments": {"status":"passed","reason": "Test Passed"}}')
+                'browserstack_executor: {"action": "setSessionStatus", "arguments": {"status":"failed","reason": "Test failed"}}')
         

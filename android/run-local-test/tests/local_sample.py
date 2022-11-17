@@ -8,7 +8,7 @@ import pytest
 from selenium.webdriver.common.by import By
 
 
-@pytest.mark.usefixtures('getWebdriver')
+@pytest.mark.usefixtures('setWebdriver')
 class TestSample:
 
     def test_example(self):
