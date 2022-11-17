@@ -4,7 +4,7 @@
     "capabilities": {
         "app" : "bs://<app-id>",
         "bstack:options": {
-            "projectName": "Pytest Local Project",
+            "projectName": "Pytest Android Project",
             "buildName": "browserstack-build-1",
             "sessionName": "BStack local_test",
             "local": "true",

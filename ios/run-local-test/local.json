@@ -4,9 +4,9 @@
     "capabilities": {
         "app" : "bs://<app-id>",
         "bstack:options": {
-            "projectName": "Pytest Browserstack",
-            "buildName": "browserstack-build-ios",
-            "sessionName": "BStack sample pytest",
+            "projectName": "Pytest iOS Project",
+            "buildName": "browserstack-build-1",
+            "sessionName": "BStack local_test",
             "local": "true",
             "debug": "true",
             "networkLogs": "true"
