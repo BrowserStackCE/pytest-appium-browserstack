@@ -79,7 +79,7 @@ Open `single.json` file in `android/run-single-test` folder for Android and `ios
 
 - Set the deviceName and platformVersion. You can refer our [Capability Generator](https://www.browserstack.com/app-automate/capabilities)
     
-- Run the below command to execute a single Android test on BrowserStack AppAutomate:
+- Run the below command to execute parallel Android test on BrowserStack AppAutomate:
 ```
 cd android
 paver run parallel
