@@ -4,7 +4,7 @@ import os
 from appium import webdriver
 import json
 from jsonmerge import merge
-CONFIG_FILE = os.environ['CONFIG_FILE'] if 'CONFIG_FILE' in os.environ else 'config/single.json'
+CONFIG_FILE = os.environ['CONFIG_FILE'] if 'CONFIG_FILE' in os.environ else 'run-single-test/single.json'
 TASK_ID = int(os.environ['TASK_ID']) if 'TASK_ID' in os.environ else 0
 
 with open(CONFIG_FILE) as data_file:
